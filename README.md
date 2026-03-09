@@ -95,21 +95,14 @@ These metrics help measure how well the model predicts future sales.
 
 ## 📁 Project Structure
 
-BMW-Sales-Prediction/
-│
-├── notebooks/
-│ └── main.ipynb
-│
-├── images/
-│ └── output.png
-│
-├── data/
-│ └── bmw_global_sales_2018_2025.csv
-│
-├── models/
-│
-├── README.md
-└── requirements.txt
+- `data/cleaned_bmw_data.csv`: Cleaned BMW sales data
+- `app.py`: Streamlit app for user interaction
+- `notebooks/main.ipynb`: Jupyter notebook for data analysis
+- `notebooks/machine.ipynb`: Jupyter notebook for Machine learning
+- `data/`: Contains the dataset files
+- `images/`: Stores visualizations and plots
+- `requirements.txt`: List of dependencies
+
 
 ---
 
